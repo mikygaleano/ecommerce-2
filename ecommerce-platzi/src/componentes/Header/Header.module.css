@@ -1,0 +1,26 @@
+header {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+}
+
+header img:nth-child(1) {
+    width: 2rem;
+}
+
+header > span {
+    display: none;
+}
+
+nav ul {
+    display: flex;
+    gap: .5rem;
+}
+nav ul > li{
+    list-style: none;
+}
+.linkrouter {
+    text-decoration: none;
+    color: #000;
+}
