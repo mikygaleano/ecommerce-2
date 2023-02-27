@@ -10,7 +10,7 @@ export default function Header (props) {
     return (
         <header >
 
-            <Link to='/'><img src={image} alt="logo" /></Link>
+            <Link to='home'><img src={image} alt="logo" /></Link>
             <nav>
                 <ul>
                 {

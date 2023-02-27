@@ -1,8 +1,12 @@
 header {
+    position: fixed;
     width: 100%;
     height: fit-content;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    background-color: #000;
 }
 
 header img:nth-child(1) {
@@ -22,5 +26,6 @@ nav ul > li{
 }
 .linkrouter {
     text-decoration: none;
-    color: #000;
+    color: white;
+    text-align: center;
 }

@@ -21,7 +21,8 @@ export default function App () {
         })
         const array2 = array.filter(e => {
             
-            return e.name != 'New Category' && e.name != 'un nuevo nombre' && !e[4]; 
+            return e.name != 'New Category' && e.name != 'un nuevo nombre' && e.name != 'Nueva categoria'
+                    && e.name != 'Prueba' && e.name != 'Amiguito' && !e[4]; 
             
         })
         

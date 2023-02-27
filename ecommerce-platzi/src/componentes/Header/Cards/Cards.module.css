@@ -1,0 +1,28 @@
+.sectionCards {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.conteinerCards {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+.cards {
+    width: 15rem;
+    height: fit-content;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards img:nth-child(1){
+    width: 15rem;
+    height: 10rem;
+}
